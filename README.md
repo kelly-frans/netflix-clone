@@ -15,3 +15,7 @@ This project is a **clone of the Netflix homepage and Sign In landing page**, bu
   - Flexbox for layout management.
   - CSS Grid for responsive sections.
   - Basic transitions and hover effects.
+ 
+## 📸 Link to Site 👩🏽‍💻
+
+https://zaio-platform-streaming-page.netlify.app/
