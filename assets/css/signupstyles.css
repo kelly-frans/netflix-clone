@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 145px;
+    padding: 30px 80px;
+}
+
+.logo-svg{
+    width: 200px;
+}
+
+.signup-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100%;
+}
+
+.signup-banner-wrapper{
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/0b3d0e77-3be2-4104-b1da-11e007b5528e/ZA-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_055979d5-8aaf-4914-bb3f-c63ee737d165_large.jpg');
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: #fff;
+    height: 87vh;
+    width: 600px;
+    padding-left: 90px;
+}
+
+.signup-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form > h1{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+form > input{
+    height: 77px;
+    width: 420px;
+    background-color: rgba(28, 28, 28, 0.5);
+    border-radius: 5px;
+    border: solid #535353;
+    padding-left: 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color: #b9b9b9;
+}
+
+form > button{
+    height: 56px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    border: solid #535353;
+    padding-left: 15px;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.sign-in-button{
+    background-color: rgb(229 8 21);
+}
+
+.sign-in-button:hover{
+    cursor: pointer;
+    background-color: rgb(197, 4, 17);
+}
+.sign-in-code-button{
+    background-color: #333333;
+}
+
+.sign-in-code-button:hover{
+    cursor: pointer;
+    background-color: #272727;
+}
+
+form > h2{
+    padding-left: 200px;
+    margin-bottom: 17px;
+    font-size: 20px;
+    color: rgba(187, 187, 187);
+    font-weight: 200;
+}
+
+form > h3{
+    padding-left: 120px;
+    font-size: 21px;
+    color: rgba(187, 187, 187);
+    font-weight: 200;
+}
+
+.password-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+form > p{
+    font-size: 21px;
+    margin-top: 15px;
+    padding: 8px 0px;
+}    
+
+#remember-me{
+    background-color: #272727;
+}
+
+.signup-link{
+    color: #b9b9b9;
+}
+
+.signup-link a{
+    font: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup-link a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signup-form #remember-me{
+    margin-right: 10px;
+}
+
+input[type="checkbox"] {
+    transform: scale(2.0);
+    margin: 10px; 
+    background-color: #272727;
+}
+
+.footer{
+    color: #b3b3b3;
+    margin: 72px 200px;
+    font-size: 20px;
+}
+
+.footer-items{
+    margin-top: 450px;
+}
+
+.footer-top a {
+    color: #b3b3b3;
+}
+
+.footer-top > p{
+    margin: 0 0 30px 0;
+}
+
+.footer-links {
+    columns: 4;
+}
+
+.footer-links > ul{
+    text-decoration: underline;
+}
+
+.footer-links li{
+    list-style-type: none;
+    margin: 20px 0px;
+}
+
+.footer-links li:hover{
+    cursor: pointer;
+}
+
+.copyright{
+    margin-top: 20px;
+}
+
+.languages{
+    width: 140px;
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    display: flex;
+    align-items: center;
+}
+
+#languages{
+    height: 32px;
+    width: 110px;
+    color: #c0c0c0;
+    background-color: #000;
+    border: none;
+    font-size: 18px;
+}
+
+.languages .material-symbols-outline{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 6px;
+}
